@@ -27,9 +27,9 @@ int main()
 	std::cout << "Testing for generateE\n";	
 	float generated_e = 0;
 	generated_e = generateE();
-	std::cout << "The value of the mathematical constant 'e' is : " << generated_e << "\n";
 	ss << generated_e;
 	std::string e_string = ss.str();
-	std::cout << "The string representation of the number is : " << e_string << "\n";	
+	// the problem is that there aren't any good formulas for the accurate generation of 'e' to the nth digit	
+	std::cout << "The value of the mathematical constant 'e' is : " << e_string << "\n";	
 	return 0;
 }
