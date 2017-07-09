@@ -2,4 +2,4 @@ CPP/Numbers/*.exe
 CPP/QtProjects/*/debug
 CPP/QtProjects/*/release
 CPP/QtProjects/*/Makefile.*
-CPP/QtProjects/build*
+CPP/QtProjects/build-*/
